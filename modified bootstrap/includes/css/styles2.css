@@ -1,39 +1,78 @@
 header{
-    background-color: pink;
-    width: 100%;
-    height: 80px;
-    position: fixed;
+  background-color: pink;
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  }
+
+
+a{
+      text-decoration: none;
     }
-  /*  li{
-       display: inline;
-       font-family: Handlee;
-       padding-top: 10px;
-       font-size: 20px;
-       margin-left: 5px;
-       margin-right: 30px;*/
+a:hover {
+      color: purple;
+  }
 
-     }
-     a{
-         text-decoration: none;
-         color: purple
-       }
 
-     a:hover {
-         color: purple
-     }
-     h1
-     {
-       float: left;
-       font-family: handlee;
-       font-size: 60px;
-       margin-left: 0px;
-       padding-top: 5px;
-     }
 
-     h3{
-       font-family: handlee;
-       font-size: 20px
-     }
+.comments{
+    font-size: 14px;
+    font-family: handlee;
+    position: absolute;
+    margin-top: 25px;
+  }
+  .image{
+    margin-top: 60px;
+  }
+
+
+
+
+
+h2{
+    color:#732673;
+    float: left;
+    font-family: handlee;
+    font-weight: bold;
+    font-size: 60px;
+    margin: 0;
+  }
+
+h3{
+    color: #732673;
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: handlee;
+    font-size: 20px
+  }
+
+h4{
+    font-weight: bold;
+    text-decoration: underline;
+    color: #732673;
+    font-family: handlee;
+    font-size: 20px;
+  }
+
+.ingradients{
+  font-family: handlee;
+  font-size: 16px;
+  margin: 0;
+  }
+
+
+  .step-3{
+    font-family: handlee;
+    font-size: 16px;
+      margin: 0;
+  }
+
+.exclamation{
+  font-size: 23px;
+  color: #732673;
+  font-family: handlee;
+  padding-bottom: 30px;
+}
 
 
 /* --------------------------------------
@@ -50,16 +89,7 @@ header{
 #inputMessage{
   margin-bottom: 13px;
 }
-.feature{
-  font-family: handlee;
-  font-size: 17px;
-}
-footer{
-  background: pink;
-  color: black;
-  font-size: 12px;
-  padding: 10px;
-}
+
 /* --------------------------------------
    Typography
    -------------------------------------- */
@@ -69,7 +99,8 @@ body {
 }
 
 
-ul.unstyled{
+ul.unstyled
+{
   list-style: none;
   padding: 0;
   font-size: 15px;
@@ -89,7 +120,7 @@ ul.unstyled{
        font-size: 16px;
        color: purple;
        }
-       .nav navbar-nav{
+  .nav navbar-nav{
          font-size: 15px;
        }
    #searchInput{
@@ -162,7 +193,10 @@ ul.unstyled{
   display: none;
 }
 .well{
-  margin: 20px 0;
+  margin-top: 70px;
+  bottom: 0;
+  font-family: handlee;
+  font-size: 15px;
 }
 .tabbable img.thumbnail{
   margin: 0 20px 10px 0;
@@ -264,6 +298,16 @@ ul.unstyled{
   #slide3{
     background: url('../../images/carousel3_large1.png') top center no-repeat;
   }
+
+#moreinfo{
+  font-family: handlee;
+  font-size: 15px;
+}
+
+
+
+
+
   .carousel-caption{
 
     color: #ffffb3;
@@ -276,23 +320,21 @@ ul.unstyled{
   }
 }
 
-
-
-
-
-
-
   .wrap{
   margin:20px 10px 20px 10px;
 
   }
 
+
   .footer1{
-    background-color: pink;
+    color: black;
     font-size: 14px;
+    background-color: pink;
     font-family: handlee;
     padding: 0px 0px;
+    height: 80%
     width: 100%
+
 }
 .footer1 li:hover{
   color: purple;
