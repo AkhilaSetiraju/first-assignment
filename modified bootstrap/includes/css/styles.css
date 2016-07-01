@@ -1,44 +1,35 @@
 header{
-    background-color: pink;
-    width: 100%;
-    height: 80px;
-    position: fixed;
-    }
-  /*  li{
-       display: inline;
-       font-family: Handlee;
-       padding-top: 10px;
-       font-size: 20px;
-       margin-left: 5px;
-       margin-right: 30px;*/
+  background-color: pink;
+  width: 100%;
+  height: 80px;
+  position: fixed;
+}
 
-     }
-     a{
-         text-decoration: none;
-         color: purple
-       }
+a{
+  text-decoration: none;
+}
 
-     a:hover {
-         color: purple
-     }
-     h1
-     {
-       float: left;
-       font-family: handlee;
-       font-size: 60px;
-       margin-left: 0px;
-       padding-top: 5px;
-     }
+a:hover {
+  color: purple
+}
+h1
+{
+  float: left;
+  font-family: handlee;
+  font-size: 60px;
+  margin-left: 0px;
+  padding-top: 5px;
+}
 
-     h3{
-       font-family: handlee;
-       font-size: 20px
-     }
+h3{
+  font-family: handlee;
+  font-size: 20px
+}
 
 
 /* --------------------------------------
-   Layout
-   -------------------------------------- */
+Layout
+-------------------------------------- */
 
 #features{
   text-align: center;
@@ -47,9 +38,7 @@ header{
 #features img{
   margin: 0 0 20px;
 }
-#inputMessage{
-  margin-bottom: 13px;
-}
+
 .feature{
   font-family: handlee;
   font-size: 17px;
@@ -61,8 +50,8 @@ footer{
   padding: 10px;
 }
 /* --------------------------------------
-   Typography
-   -------------------------------------- */
+Typography
+-------------------------------------- */
 body {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
@@ -74,28 +63,36 @@ ul.unstyled{
   padding: 0;
   font-size: 15px;
   text-decoration: none;
-  color: purple;
 }
 
 /* --------------------------------------
-   Navbar
-   -------------------------------------- */
-  .navbar{
-       background-color: pink;
-       width: 100%;
-       height: 10%;
-       position: fixed;
-       font-family: handlee;
-       font-size: 16px;
-       color: purple;
-       }
-       .nav navbar-nav{
-         font-size: 15px;
-       }
-   #searchInput{
-     width: 200px;
+Navbar
+-------------------------------------- */
+.navbar{
+  background-color: pink;
+  width: 100%;
+  height: 10%;
+  position: fixed;
+  font-family: handlee;
+  font-size: 16px;
+  color: purple;
+}
+.navbar-nav{
+  margin: 0;
+}
+.navbar-responsive-collapse{
+  background-color: white;
+  margin-top: -20px;
+}
+#buttonclass{
+  background-color: transparent;
+}
 
-   }
+
+#searchInput{
+  width: 200px;
+
+}
 
 .navbar-brand{
   margin-top: -10px;
@@ -103,29 +100,29 @@ ul.unstyled{
 
 }
 /* --------------------------------------
-   Carousel
-   -------------------------------------- */
-   #myCarousel{
-     margin-top: 60px;
-   }
-  .carousel .backdrop{
-     width: 100%;
-     height: 100%;
-     background: black;
-     opacity: 0.3;
-     position: absolute;
-     z-index: 999;
-   }
-   .carousel-indicators{
-     z-index: 99999;
-   }
-   .carousel-control{
-     z-index: 9999;
-   }
-   .carousel-caption{
-     opacity: 2.0;
-     z-index: 99998;
-   }
+Carousel
+-------------------------------------- */
+#myCarousel{
+  margin-top: 70px;
+}
+.carousel .backdrop{
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: 0.3;
+  position: absolute;
+  z-index: 500;
+}
+.carousel-indicators{
+  z-index: 99999;
+}
+.carousel-control{
+  z-index: 9999;
+}
+.carousel-caption{
+  opacity: 2.0;
+  z-index: 99998;
+}
 
 #myCarousel .item{
   height: 400px;
@@ -155,38 +152,14 @@ ul.unstyled{
 
 
 /* --------------------------------------
-   Global Styles
-   -------------------------------------- */
-.alert{
-  margin-top: 20px;
-  display: none;
-}
-.well{
-  margin: 20px 0;
-}
-.tabbable img.thumbnail{
-  margin: 0 20px 10px 0;
-}
-.thumbnails{
-  margin: 20px 0;
-}
-.thumbnail{
-  position: relative;
-}
-.thumbnail h3{
-  font-size: 16px;
-  margin: 0 0 10px;
-  line-height: 20px;
-}
+Global Styles
+-------------------------------------- */
 
 
 
-.thumbnail span.glyphicon{
-  margin-right: 5px;
-}
 /* --------------------------------------
-   Media Queries
-   -------------------------------------- */
+Media Queries
+-------------------------------------- */
 
 /* Portrait & landscape phone */
 @media (max-width: 480px) {
@@ -202,12 +175,7 @@ ul.unstyled{
   #slide3{
     background: url('../../images/carousel3_very small1.png') top center no-repeat;
   }
-.thumbnail .price{
-  font-size: 14px;
-  }
-  .thumbnail .price sup{
-    font-size: 10px;
-  }
+
   .carousel-caption{
 
     font-family: handlee;
@@ -276,28 +244,24 @@ ul.unstyled{
   }
 }
 
-
-
-
-
-
-
-  .wrap{
+.wrap{
   margin:20px 10px 20px 10px;
 
-  }
-
-  .footer1{
-    background-color: pink;
-    font-size: 14px;
-    font-family: handlee;
-    padding: 0px 0px;
-    width: 100%
 }
-.footer1 li:hover{
-  color: purple;
 
+.footer1{
+  background-color: pink;
+  font-size: 14px;
+  font-family: handlee;
+  padding: 0px 0px;
+  width: 100%
 }
 .footer1 h6{
+  font-family: handlee;
+  font-size: 15px;
+  color: purple;
+}
+
+.footer1 li:hover{
   color: purple;
 }

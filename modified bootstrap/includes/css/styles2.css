@@ -3,69 +3,65 @@ header{
   width: 100%;
   height: 80px;
   position: fixed;
-  }
+}
 
 
 a{
-      text-decoration: none;
-    }
+  text-decoration: none;
+}
+
 a:hover {
-      color: purple;
-  }
-
-
+  color: purple;
+}
 
 .comments{
-    font-size: 14px;
-    font-family: handlee;
-    position: absolute;
-    margin-top: 25px;
-  }
-  .image{
-    margin-top: 60px;
-  }
+  font-size: 14px;
+  font-family: handlee;
+  position: absolute;
+  margin-top: 25px;
+}
 
-
-
-
+.image{
+  margin-top: 60px;
+}
 
 h2{
-    color:#732673;
-    float: left;
-    font-family: handlee;
-    font-weight: bold;
-    font-size: 60px;
-    margin: 0;
-  }
+  color:#732673;
+  float: left;
+  font-family: handlee;
+  font-weight: bold;
+  font-size: 60px;
+  margin: 0;
+}
 
 h3{
-    color: #732673;
-    font-weight: bold;
-    text-decoration: underline;
-    font-family: handlee;
-    font-size: 20px
-  }
+  color: #732673;
+  font-weight: bold;
+  text-decoration: underline;
+  font-family: handlee;
+  font-size: 20px
+}
 
 h4{
-    font-weight: bold;
-    text-decoration: underline;
-    color: #732673;
-    font-family: handlee;
-    font-size: 20px;
-  }
+  font-weight: bold;
+  text-decoration: underline;
+  color: #732673;
+  font-family: handlee;
+  font-size: 20px;
+}
 
 .ingradients{
   font-family: handlee;
   font-size: 16px;
   margin: 0;
-  }
+}
 
 
-  .step-3{
-    font-family: handlee;
-    font-size: 16px;
-      margin: 0;
-  }
+.step-3{
+  font-family: handlee;
+  font-size: 16px;
+  margin: 0;
+}
 
 .exclamation{
   font-size: 23px;
@@ -76,8 +72,8 @@ h4{
 
 
 /* --------------------------------------
-   Layout
-   -------------------------------------- */
+Layout
+-------------------------------------- */
 
 #features{
   text-align: center;
@@ -91,8 +87,8 @@ h4{
 }
 
 /* --------------------------------------
-   Typography
-   -------------------------------------- */
+Typography
+-------------------------------------- */
 body {
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
@@ -105,236 +101,98 @@ ul.unstyled
   padding: 0;
   font-size: 15px;
   text-decoration: none;
-  color: purple;
 }
 
 /* --------------------------------------
-   Navbar
-   -------------------------------------- */
-  .navbar{
-       background-color: pink;
-       width: 100%;
-       height: 10%;
-       position: fixed;
-       font-family: handlee;
-       font-size: 16px;
-       color: purple;
-       }
-  .nav navbar-nav{
-         font-size: 15px;
-       }
-   #searchInput{
-     width: 200px;
+Navbar
+-------------------------------------- */
+.navbar{
+  background-color: pink;
+  width: 100%;
+  height:10%;
+  position: fixed;
+  font-family: handlee;
+  font-size: 16px;
+  color: purple;
+}
+.navbar-responsive-collapse{
+  background-color: white;
+  margin-top: -20px;
+}
+#buttonclass{
+  background-color:transparent;;
+}
 
-   }
+#searchInput{
+  width: 200px;
+
+}
 
 .navbar-brand{
   margin-top: -10px;
-
-
 }
 /* --------------------------------------
-   Carousel
-   -------------------------------------- */
-   #myCarousel{
-     margin-top: 60px;
-   }
-  .carousel .backdrop{
-     width: 100%;
-     height: 100%;
-     background: black;
-     opacity: 0.3;
-     position: absolute;
-     z-index: 999;
-   }
-   .carousel-indicators{
-     z-index: 99999;
-   }
-   .carousel-control{
-     z-index: 9999;
-   }
-   .carousel-caption{
-     opacity: 2.0;
-     z-index: 99998;
-   }
+Carousel
+-------------------------------------- */
 
-#myCarousel .item{
-  height: 400px;
-}
-#slide1{
-  background: url('../../images/straw_medium.png') top center no-repeat;
-  background-size: cover;
 
-}
-#slide2{
-  background: url('../../images/carouse2_medium1.png') top center no-repeat;
-}
-#slide3{
-  background: url('../../images/carousel3_medium1.png') top center no-repeat;
-}
-.carousel-caption{
-
-  font-family: handlee;
-  color: #ffffb3;
-  font-size: 16px;
-}
-.carousel-caption h4{
-  font-size: 22px;
-  font-family: handlee;
-}
-}
 
 
 /* --------------------------------------
-   Global Styles
-   -------------------------------------- */
-.alert{
-  margin-top: 20px;
-  display: none;
-}
+Global Styles
+-------------------------------------- */
+
 .well{
   margin-top: 70px;
   bottom: 0;
   font-family: handlee;
   font-size: 15px;
 }
-.tabbable img.thumbnail{
-  margin: 0 20px 10px 0;
-}
-.thumbnails{
-  margin: 20px 0;
-}
-.thumbnail{
-  position: relative;
-}
-.thumbnail h3{
-  font-size: 16px;
-  margin: 0 0 10px;
-  line-height: 20px;
-}
 
 
-
-.thumbnail span.glyphicon{
-  margin-right: 5px;
-}
 /* --------------------------------------
-   Media Queries
-   -------------------------------------- */
+Media Queries
+-------------------------------------- */
 
 /* Portrait & landscape phone */
 @media (max-width: 480px) {
 
-  #slide1{
-    background: url('../../images/straw_very small.png') top center no-repeat;
-    background-size: cover;
 
-  }
-  #slide2{
-    background: url('../../images/carouse2_very small2.png') top center no-repeat;
-  }
-  #slide3{
-    background: url('../../images/carousel3_very small1.png') top center no-repeat;
-  }
-.thumbnail .price{
-  font-size: 14px;
-  }
-  .thumbnail .price sup{
-    font-size: 10px;
-  }
-  .carousel-caption{
-
-    font-family: handlee;
-    color: #ffffb3;
-    font-size: 12px;
-  }
-  .carousel-caption h4{
-    font-size: 18px;
-  }
 }
 
 /* Landscape phone to portrait tablet */
 @media (max-width: 768px) {
-  #myCarousel .item{
-    height: 310px;
-  }
-  #slide1{
-    background: url('../../images/straw_small.png') top center no-repeat;
-    background-size: cover;
-  }
-  #slide2{
-    background: url('../../images/carousel2_small1.png') top center no-repeat;
-    background-size: cover;
 
-  }
-  #slide3{
-    background: url('../../images/carousel3_small1.png') top center no-repeat;
-    background-size: cover;
-
-  }
-  .carousel-caption{
-
-    color: #ffffb3;
-    font-family: handlee;
-    font-size: 14px;
-  }
-  .carousel-caption h4{
-    font-size: 20px;
-  }
 }
 
 /* Large desktop */
 @media (min-width: 1200px) {
-  #myCarousel .item{
-    height: 500px;
-  }
-  #slide1{
-    background: url('../../images/straw_large.png') top center no-repeat;
-    background-size: cover;
-  }
-  #slide2{
-    background: url('../../images/carousel2_large1.png') top center no-repeat;
-  }
-  #slide3{
-    background: url('../../images/carousel3_large1.png') top center no-repeat;
-  }
 
-#moreinfo{
-  font-family: handlee;
-  font-size: 15px;
-}
-
-
-
-
-
-  .carousel-caption{
-
-    color: #ffffb3;
+  #moreinfo{
     font-family: handlee;
-    font-size: 18px;
-  }
-  .carousel-caption h4{
-
-    font-size: 24px;
+    font-size: 15px;
   }
 }
 
-  .wrap{
+.wrap{
   margin:20px 10px 20px 10px;
 
-  }
+}
 
 
-  .footer1{
-    color: black;
-    font-size: 14px;
-    background-color: pink;
-    font-family: handlee;
-    padding: 0px 0px;
-    height: 80%
-    width: 100%
+.footer1{
+  color: black;
+  font-size: 14px;
+  background-color: pink;
+  font-family: handlee;
+  padding: 0px 0px;
+  height: 80%
+  width: 100%
 
+}
+.footer1 h6{
+  font-family: handlee;
+  font-size: 15px;
 }
 .footer1 li:hover{
   color: purple;
