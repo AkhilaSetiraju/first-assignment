@@ -131,6 +131,10 @@ Navbar
 .navbar-brand{
   margin-top: -10px;
 }
+.list-group-item{
+  font-family: handlee;
+  font-size: 16px;
+}
 /* --------------------------------------
 Carousel
 -------------------------------------- */

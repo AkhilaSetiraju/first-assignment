@@ -148,6 +148,9 @@ Carousel
   font-size: 22px;
   font-family: handlee;
 }
+
+.navbar-nav>.open>a, .navbar-nav>.open>a:hover, .navbar-nav>.open>a:focus {
+  background-color: transparent;
 }
 
 
